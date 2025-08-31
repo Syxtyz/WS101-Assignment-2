@@ -1,0 +1,62 @@
+# ========================
+# General
+# ========================
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node / Bun dependencies
+node_modules/
+bun.lockb
+.pnp.*
+dist/
+.build/
+
+# Vite / React / Frontend build
+.vite/
+*.cache
+*.tsbuildinfo
+public/build/
+
+# TailwindCSS cache
+.tailwindcache/
+
+# ========================
+# Python / Django
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.log
+media/
+staticfiles/
+*.pot
+*.mo
+
+# Django migrations (optional to ignore if you want versioned migrations)
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
